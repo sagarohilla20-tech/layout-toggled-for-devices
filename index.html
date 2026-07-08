@@ -17,6 +17,13 @@
                 <a href="#"><img src="images/logo.webp" alt="Logo"></a>
             </div>
 
+            <!-- Hamburger Button -->
+            <button class="hamburger" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
             <!-- Menu Links -->
             <div class="nav-links">
                 <a href="#">Home</a>
@@ -27,14 +34,6 @@
 
             <!-- Username -->
             <span class="username">Username</span>
-
-            <!-- Hamburger Button -->
-            <button class="hamburger" aria-label="Toggle Menu">
-                <span class="bar">Home</span>
-                <span class="bar">Services</span>
-                <span class="bar">About Us</span>
-                <span class="bar">About Us</span>
-            </button>
 
         </div>
     </nav>
@@ -66,16 +65,5 @@
 
         </div>
     </section>
-
-    <script>
-        // Hamburger Menu Toggle
-        const hamburger = document.querySelector('.hamburger');
-        const navLinks = document.querySelector('.nav-links');
-
-        hamburger.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-            hamburger.classList.toggle('active');
-        });
-    </script>
 </body>
 </html>
