@@ -1,135 +1,62 @@
 # Laundry Services Website
 
-A clean, modern, and fully responsive single-page website for a professional laundry service business.
+A modern, responsive single-page website for a laundry services business built with HTML and CSS.
 
-![Website Preview](images/image.webp)
+## Features
 
-## ✨ Features
+- **Responsive Navbar**: 
+  - Hamburger menu for mobile devices with smooth slide-in animation
+  - Desktop navigation with clean layout
+  - Logo and username display
 
-- **Fully Responsive Design** – Looks great on desktop, tablet, and mobile devices
-- **Modern Navbar** with logo, navigation links, and clean layout
-- **Eye-catching Hero Section** with compelling headline and call-to-action
-- **Professional Color Scheme** (Dark navbar + clean light hero)
-- **Mobile-First** approach with smooth breakpoints
-- **Fast loading** and optimized CSS using modern techniques (`clamp()`, flexbox, grid)
+- **Hero Section**:
+  - Eye-catching headline with call-to-action button
+  - Services list highlighting key offerings
+  - Professional hero image on the right side
 
-## 📱 Responsive Behavior
+- **Clean Design**:
+  - Modern color scheme (dark navbar, light hero)
+  - Smooth hover effects and transitions
+  - Professional typography and layout
 
-- **Desktop**: Two-column hero layout with side-by-side content
-- **Tablet**: Adjusted spacing and font sizes
-- **Mobile**: Hero stacks vertically, navbar becomes centered and stacked
-
-## 🛠 Tech Stack
-
-- **HTML5**
-- **CSS3** (Custom Responsive Stylesheet)
-- No external frameworks (lightweight & fast)
-
-## 📁 Project Structure
+## Project Structure
 /
-├── index.html
-├── style.css
-└── images/
+├── index.html          # Main HTML file
+├── style.css           # Stylesheet
+└── images/             # Directory for assets
 ├── logo.webp
 └── image.webp
+text## Technologies Used
 
+- HTML5
+- CSS3 (Flexbox, Media Queries, Transitions)
+- Responsive design (mobile-first approach)
 
+## Getting Started
 
-## 🎨 Sections Included
-
-### 1. Navbar
-- Logo on the left
-- Navigation menu (Home, Services, AboutUs, ContactUs)
-- Fully responsive
-
-### 2. Hero Section
-- Powerful headline: *"Revitalize your clothes with Expert Laundry Services"*
-- Descriptive subtext
-- Services list:
-  - Wash & Fold
-  - Premium Dry Cleaning
-  - Express Ironing
-- Prominent "Book a Service today!" CTA button
-- Professional hero image on the right
-
-## 🚀 How to Run
-
-1. Download or clone the project
-2. Make sure the folder structure is correct:
-   - `images/logo.webp`
-   - `images/image.webp`
+1. Clone or download the project files
+2. Ensure the `images/` directory contains:
+   - `logo.webp`
+   - `image.webp`
 3. Open `index.html` in your browser
 
-**No build tools or server required** — just open the HTML file.
+## Customization
 
-## 🎯 Customization
-
-### Changing Colors:
-- Navbar background: `.navbar`
-- Brand color: `.L1`
-- Button colors: `.cta-button`
-
-### Updating Content:
-- Edit text in `index.html`
+- Modify colors in `style.css` (e.g., `.navbar`, `.L1`, `.cta-button`)
+- Update content in `index.html`
 - Replace images in the `images/` folder
-- Modify styles in `style.css`
+- Extend with additional sections (Services, About, Contact) as needed
 
-## 📄 License
+## Mobile Menu
 
-This project is open for personal and commercial use.
+The mobile menu uses a pure CSS solution:
+- Hamburger icon becomes an X on focus
+- Menu slides in from the right
+
+## Browser Support
+
+Modern browsers supporting CSS Flexbox and `:focus` pseudo-class.
 
 ---
 
-**Would you like me to also include:**
-- A "Screenshots" section with placeholders?
-- Installation instructions for GitHub?
-- SEO meta tags recommendations?
-- Future features roadmap?
-
-Just say the word and I’ll update it! 
-
-You can copy the content above and save it as `README.md` in your project root.
-## 🎨 Sections Included
-
-### 1. Navbar
-- Logo on the left
-- Navigation menu (Home, Services, AboutUs, ContactUs)
-- Fully responsive
-
-### 2. Hero Section
-- Powerful headline: *"Revitalize your clothes with Expert Laundry Services"*
-- Descriptive subtext
-- Services list:
-  - Wash & Fold
-  - Premium Dry Cleaning
-  - Express Ironing
-- Prominent "Book a Service today!" CTA button
-- Professional hero image on the right
-
-## 🚀 How to Run
-
-1. Download or clone the project
-2. Make sure the folder structure is correct:
-   - `images/logo.webp`
-   - `images/image.webp`
-3. Open `index.html` in your browser
-
-**No build tools or server required** — just open the HTML file.
-
-## 🎯 Customization
-
-### Changing Colors:
-- Navbar background: `.navbar`
-- Brand color: `.L1`
-- Button colors: `.cta-button`
-
-### Updating Content:
-- Edit text in `index.html`
-- Replace images in the `images/` folder
-- Modify styles in `style.css`
-
-## 📄 License
-
-This project is open for personal and commercial use.
-
----
+Built as a demonstration project for laundry service businesses.

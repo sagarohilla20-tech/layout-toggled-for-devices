@@ -95,8 +95,8 @@
 }
 
 .cta-button:hover {
-    transform: translateY(-5px) scale(1.08) rotate(-5deg);
-    transition:all 0.5s ease-in-out;
+    transform: translateY(-5px) scale(1.08) rotate(-8deg);
+    transition: all 0.5s ease;
     background-color: #0052cc;
     box-shadow: 0 10px 20px rgba(0, 102, 255, 0.3);
 }
